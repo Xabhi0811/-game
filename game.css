@@ -1,0 +1,12 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.nav1{
+     background-color: blueviolet;
+     color: aliceblue;
+     display: flex;
+     text-align: center;
+}
