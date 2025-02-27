@@ -3,10 +3,22 @@
     padding: 0%;
 }
 
-
-.nav1{
+.head{
      background-color: blueviolet;
      color: aliceblue;
      display: flex;
-     text-align: center;
+     align-items: center;
+     font-size: 2rem;
+     justify-content: center;
+}
+
+.time{
+    background-color: black;
+    display: flex;
+    align-items: flex-end;
+    /*padding-right: 20%;*/
+    margin-left: 90%;
+    color: aliceblue;
+
+
 }
