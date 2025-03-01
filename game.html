@@ -3,21 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QUIZE GAME </title>
-    <link rel="stylesheet" href="game.css">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav>
-    <div class="head"> WELCOME QUIZE GAME </div>
-    </nav>
-    <div class="time"> giibb </div>
-    <div class="main"> 
-        <div class="qus">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nostrum ab asperiores provident quod, commodi ipsum. Ad est cum, consequatur quod explicabo, eos fuga impedit odit esse nam odio provident! </div>
-        <div class="box1"></div>
-        <div class="box2"></div>
-        <div class="box3"></div>
-        <div class="box4"></div>
+    <div class="quiz-container">
+        <h1>Quiz Game</h1>
+        <div id="quiz">
+            <h2 id="question">Loading question...</h2>
+            <div id="options"></div>
+            <button id="nextBtn" onclick="nextQuestion()">Next</button>
+            <h3 id="score"></h3>
+        </div>
     </div>
 
+    <script src="quiz.js"></script>
 </body>
 </html>
