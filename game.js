@@ -3,7 +3,6 @@ let resetgame  = document.querySelector("#reset");
 let newButton = document.querySelector("#new");
 let msg = document.querySelector(".msg");
 let msgg = document.querySelector("#msgg");
-
 let turnO = true; 
 
 const winpatterns = [
