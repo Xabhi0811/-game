@@ -18,7 +18,7 @@ function loadQuestion() {
     document.getElementById("question").innerText = q.question;
 
     let optionsDiv = document.getElementById("options");
-    optionsDiv.innerHTML = ""; // Clear previous options
+    optionsDiv.innerHTML = ""; 
 
     q.options.forEach(option => {
         let btn = document.createElement("button");
