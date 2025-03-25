@@ -51,8 +51,6 @@ const enabledboxes = () =>{
     }
 };
 
-
-
 const showwinner = (winner) => {
     msgg.innerText = `Sheer hai tu yrr ${winner}`;
     msg.classList.remove("hide");
