@@ -38,5 +38,4 @@ function nextQuestion() {
     currentQuestionIndex++;
     loadQuestion();
 }
-
 loadQuestion();
