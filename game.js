@@ -19,7 +19,6 @@ const winpatterns = [
     turnO = true;
     enabledboxes();
     msg.classList.add("hide");
-
  };
 
 boxes.forEach((box) => {
