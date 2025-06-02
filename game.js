@@ -5,6 +5,7 @@ let msg = document.querySelector(".msg");
 let msgg = document.querySelector("#msgg");
 let turnO = true; 
 
+
 const winpatterns = [
     [0, 1, 2],
     [0, 3, 6],
